@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#content {
+		text-align: center;
+	}
+	
+	#result {
+		font-size: 20px;
+		font-weight: 100px;
+	}
+	
+	.notice {
+		font-size: 12px;
+	}
+	
+</style>
+<script src="js/jquery-3.5.1.js"></script>
+<script type="text/javascript">
+ function check_img(){
+	 var text = $('#text').val()
+	 var param = "";
+	 param += "dummy=" + Math.random();
+	 param += "&text="+text;
+	
+	 $.ajax({
+			url : "pic_check2",
+			data : param,
+			dataType : "json",
+			type : "post",
+			async: false,
+			statusCode : {
+				404 : function() {
+					alert("네트워크가 불안정합니다. 다시 시도부탁드립니다.");
+				}
+			},
+			success : function(data) {
+				male = data['male']
+				female = data['female']
+				age = data['age']
+ 				img_tags = data['img_tags'] 
+					
+				img = $('<img>',{
+					'src' : text,
+					'alt' : 'pic',
+					'width' : '300px' 
+					})//img
+						
+				$("#male").html(male);
+				$("#female").html(female);
+				$("#age").html(age);
+				$("#img").html(img);
+				
+ 				$("#img_tags").html(img_tags);
+			}
+		});
+ }
+</script>
+</head>
+<body>
+<SECTION id = "content">
+<p>사진과 어울리는 쇼핑몰 추천</p>
+<p class="notice">이미지 주소를 입력해주세요<br />
+[png 또는 jpg/2048px*2048px 이하/최대 용량 2MB]</p>
+<input type="text" id="text" name="text"><br />
+<button onclick="check_img()">검사</button> <br /><br />
+
+<!--  업로드한 이미지를 띄워줌  -->
+<div id="img"></div> <br />
+
+추정나이<br />
+<p id='result'><span id="age"></span> 세<br /></p>
+남성일 확률 : <span id="male"></span> <br />
+여성일 확률 : <span id="female"></span> <br /><br /><br />
+
+<!-- 이미지 하단에 결과 출력 -->
+<div id="img_tags"></div>
+</SECTION>
+</body>
+</html>

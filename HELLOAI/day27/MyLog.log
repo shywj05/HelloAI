@@ -1,0 +1,6729 @@
+2021-03-08 13:41:53,553 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 13:41:56,933 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 13:46:57,473 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 13:46:58,395 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 13:47:03,887 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 13:47:18,776 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 13:48:25,925 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 13:48:28,090 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 13:49:17,897 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 13:55:53,500 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 13:55:59,810 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-08 13:55:59,844 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:06:29,791 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:06:30,421 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:06:34,148 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:06:57,614 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:07:01,602 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:17:58,941 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:18:02,946 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:18:06,628 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 14:22:12,423 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:22:19,550 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-08 14:23:35,737 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:23:38,601 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-08 14:24:44,889 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:24:48,316 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 14:25:18,603 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 14:25:21,850 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:15:34,411 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 17:15:42,803 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:16:55,769 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:16:56,588 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:17:06,450 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 17:17:09,664 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:19:14,193 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:19:16,270 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:22:24,091 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:09,457 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:09,577 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:09,730 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:09,862 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:10,008 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:10,161 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:14,448 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 17:23:14,479 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:20,098 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 17:23:25,479 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 17:23:25,510 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:34,626 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 17:23:34,656 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:41,864 - MyLog - DEBUG - 
+delete
+from starget
+where survey_id = :3
+  and st_mobile= :4
+2021-03-08 17:23:41,894 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:23:48,544 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 17:23:48,590 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:28:00,746 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:28:04,693 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:10,386 - MyLog - DEBUG - 
+update sdetail
+set question =:1,
+    a1 =:2,
+    a2 =:3,
+    a3 =:4,
+    a4 =:5,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:6
+where survey_id=:7
+  and s_seq=:8
+2021-03-08 17:28:10,417 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:13,929 - MyLog - DEBUG - 
+delete
+from sdetail
+where survey_id = :7
+  and s_seq= :8
+2021-03-08 17:28:13,960 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:18,426 - MyLog - DEBUG - 
+update sdetail
+set question =:1,
+    a1 =:2,
+    a2 =:3,
+    a3 =:4,
+    a4 =:5,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:6
+where survey_id=:7
+  and s_seq=:8
+2021-03-08 17:28:18,458 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:22,382 - MyLog - DEBUG - 
+update sdetail
+set question =:1,
+    a1 =:2,
+    a2 =:3,
+    a3 =:4,
+    a4 =:5,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:6
+where survey_id=:7
+  and s_seq=:8
+2021-03-08 17:28:22,412 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:28,018 - MyLog - DEBUG - 
+update sdetail
+set question =:1,
+    a1 =:2,
+    a2 =:3,
+    a3 =:4,
+    a4 =:5,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:6
+where survey_id=:7
+  and s_seq=:8
+2021-03-08 17:28:28,049 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 17:28:32,400 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:31:17,827 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:31:28,181 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 17:31:28,213 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:31:33,895 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 17:31:33,926 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 17:31:38,804 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 17:31:38,835 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:24:47,985 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:24:56,775 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 18:24:59,495 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:25:05,009 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-08 18:25:05,040 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:25:11,837 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 18:25:11,867 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:25:21,842 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 18:25:24,384 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-08 18:25:28,851 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-08 18:25:33,948 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-08 18:25:39,060 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:25:44,546 - MyLog - DEBUG - 
+delete
+from starget
+where survey_id = :3
+  and st_mobile= :4
+2021-03-08 18:25:44,586 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:25:49,001 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 18:25:50,297 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 18:25:53,540 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-08 18:25:53,569 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-08 18:32:02,141 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-08 18:32:04,812 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-09 13:42:42,635 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 13:45:38,132 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 13:45:46,788 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 13:45:49,573 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-09 13:55:15,888 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 13:58:34,296 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 13:59:53,074 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:03:58,184 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:06:42,118 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:06:42,631 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:06:42,792 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:07:50,131 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:08:01,605 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 14:08:10,902 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 14:08:13,767 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:09:03,647 - MyLog - DEBUG - 
+insert into suser (USER_ID, PWD, USER_NAME, MOBILE, EMAIL, BIRTH, IN_DATE, IN_USER_ID, UP_DATE, UP_USER_ID)
+values (:1, :2, :3, :4, :5, :6, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8)
+2021-03-09 14:09:03,700 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:11:07,887 - MyLog - DEBUG - 
+update suser
+set PWD=:1,
+    USER_NAME=:2,
+    MOBILE=:3,
+    EMAIL=:4,
+    BIRTH=:5,
+    UP_DATE=to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    UP_USER_ID=:6
+where USER_ID=:7
+2021-03-09 14:11:07,918 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:12:10,432 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:12:12,858 - MyLog - DEBUG - 
+delete
+from suser
+where USER_ID = :1
+2021-03-09 14:12:12,888 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:25,833 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:26,513 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:26,744 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:27,043 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:28,011 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+2021-03-09 14:14:43,341 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:14:43,761 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:14:46,675 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:16:07,900 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:16:08,503 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:16:08,683 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:16:08,828 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:02,439 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:05,185 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:05,913 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:06,445 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:06,626 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:06,796 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:06,951 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:07,136 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:07,608 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:08,023 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:22:44,095 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:23:34,280 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:29:28,941 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:30:30,875 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:30:32,812 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:31:20,057 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:33:05,381 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:34:29,540 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 14:34:42,074 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 14:39:55,758 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 14:59:43,954 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:00:46,031 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:00:50,779 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:03:12,931 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:09:29,476 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:09:33,395 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:09:37,523 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:14:10,538 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:20:47,702 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:36:32,534 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:37:44,017 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:38:19,285 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:39:09,413 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 15:50:44,322 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:30:15,145 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:35:13,124 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:35:24,980 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:37:34,399 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:46:33,434 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 16:46:57,097 - MyLog - DEBUG - 
+insert into suser (USER_ID, PWD, USER_NAME, MOBILE, EMAIL, BIRTH, IN_DATE, IN_USER_ID, UP_DATE, UP_USER_ID)
+values (:1, :2, :3, :4, :5, :6, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8)
+2021-03-09 17:09:24,153 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:09:26,519 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-09 17:10:49,174 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:10:51,186 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:10:58,354 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:11:57,895 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:12:57,147 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:12:57,644 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:13:02,316 - MyLog - DEBUG - 
+delete
+from sresult
+where survey_id = :1
+  and s_seq= :2
+  and st_mobile=:3
+2021-03-09 17:13:44,993 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:13:53,901 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 17:14:32,835 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:14:34,991 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:14:48,667 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 17:14:52,076 - MyLog - DEBUG - 
+delete
+from sresult
+where survey_id = :1
+  and s_seq= :2
+  and st_mobile=:3
+2021-03-09 17:15:24,766 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:15:27,043 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:18:49,476 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:18:49,814 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:18:55,977 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:23:39,442 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:23:44,024 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:23:46,164 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:23:52,321 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:26:43,080 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:26:45,193 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:26:51,017 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:26:51,057 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:26:58,017 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 17:26:58,055 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:27:01,940 - MyLog - DEBUG - 
+delete
+from sresult
+where survey_id = :1
+  and s_seq= :2
+  and st_mobile=:3
+2021-03-09 17:27:01,970 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:31:42,491 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:31:44,774 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:31:52,345 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:31:52,375 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:34:50,023 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:34:50,443 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:34:50,600 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:34:50,759 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:35:01,630 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 17:35:03,849 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:35:08,461 - MyLog - DEBUG - 
+delete
+from sresult
+where survey_id = :1
+  and s_seq= :2
+  and st_mobile=:3
+2021-03-09 17:35:08,490 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:35:13,919 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:35:13,958 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:35:22,724 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 17:35:22,754 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:35:28,986 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 17:35:29,035 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 17:37:51,746 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 17:37:51,786 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 18:30:43,142 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+2021-03-09 18:31:01,628 - MyLog - DEBUG - 
+insert into suser (USER_ID, PWD, USER_NAME, MOBILE, EMAIL, BIRTH, IN_DATE, IN_USER_ID, UP_DATE, UP_USER_ID)
+values (:1, :2, :3, :4, :5, :6, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8)
+2021-03-09 18:31:13,842 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-09 18:31:16,076 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 18:31:21,817 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-09 18:31:21,857 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 18:31:35,057 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-09 18:31:35,096 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 18:31:39,852 - MyLog - DEBUG - 
+delete
+from sresult
+where survey_id = :1
+  and s_seq= :2
+  and st_mobile=:3
+2021-03-09 18:31:39,881 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-09 18:31:42,655 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-09 18:31:43,977 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 18:31:44,649 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-09 18:31:45,487 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-09 18:31:48,424 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-09 18:31:52,147 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-09 18:31:52,965 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-09 18:31:53,763 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 13:35:54,476 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 13:35:57,374 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 13:36:03,775 - MyLog - DEBUG - 
+insert into sresult (survey_id, s_seq, st_mobile, answer, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-10 13:36:03,827 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 13:36:08,207 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-10 13:36:16,814 - MyLog - DEBUG - 
+update sresult
+set answer =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and s_seq=:4
+  and st_mobile=:5
+2021-03-10 13:36:23,695 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 13:37:25,048 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 13:37:28,088 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 13:37:30,493 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 13:37:31,381 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 13:37:32,517 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 13:37:36,851 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 13:38:05,424 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 14:42:17,713 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 14:42:18,805 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 14:42:23,099 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 14:42:26,397 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 14:42:28,414 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 14:42:29,339 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:42:30,602 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 14:44:36,475 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:44:37,532 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 14:44:38,430 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 14:44:39,428 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:44:44,128 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:46:03,827 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:19,495 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:20,159 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:20,329 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:20,473 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:30,787 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:32,560 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:32,715 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:32,870 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:33,186 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:47:33,424 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:24,449 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:24,955 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:25,163 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:25,320 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:26,627 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 14:48:27,019 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:27,528 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 14:48:28,707 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 14:48:29,122 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:48:29,611 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 14:48:30,835 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:05,499 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:05,900 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:06,092 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:06,262 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:06,934 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:07,066 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:49:17,432 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:51:51,465 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:53:49,274 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:54:03,641 - MyLog - DEBUG - 
+delete
+from survey
+where survey_id = :1
+2021-03-10 14:54:08,705 - MyLog - DEBUG - 
+delete
+from survey
+where survey_id = :1
+2021-03-10 14:54:08,746 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:54:11,571 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:54:16,437 - MyLog - DEBUG - 
+insert into survey (survey_id, title, content, interview_cnt, deadline, in_date, in_user_id, up_date, up_user_id)
+values (survey_seq.nextval, :1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-10 14:54:16,487 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:25,630 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:37,864 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:38,550 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:45,247 - MyLog - DEBUG - 
+insert into survey (survey_id, title, content, interview_cnt, deadline, in_date, in_user_id, up_date, up_user_id)
+values (survey_seq.nextval, :1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-10 14:55:45,307 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:55,137 - MyLog - DEBUG - 
+delete
+from survey
+where survey_id = :1
+2021-03-10 14:55:55,187 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:55:57,013 - MyLog - DEBUG - 
+delete
+from survey
+where survey_id = :1
+2021-03-10 14:55:57,052 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:56:01,124 - MyLog - DEBUG - 
+insert into survey (survey_id, title, content, interview_cnt, deadline, in_date, in_user_id, up_date, up_user_id)
+values (survey_seq.nextval, :1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-10 14:56:01,187 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 14:56:52,462 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:01:40,967 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:26,179 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:50,244 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:51,233 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:51,741 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:51,972 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:53,024 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:03:53,378 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:03,609 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:25,166 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:25,269 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:25,402 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:25,571 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:04:25,721 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:05:12,964 - MyLog - DEBUG - 
+update survey
+set title =:1,
+    content =:2,
+    interview_cnt =:3,
+    deadline =:4,
+    up_date =to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:5
+where survey_id=:6
+2021-03-10 15:05:13,022 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:07:02,533 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:07:42,415 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:09:23,101 - MyLog - DEBUG - 
+update survey
+set title =:1,
+    content =:2,
+    interview_cnt =:3,
+    deadline =:4,
+    up_date =to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:5
+where survey_id=:6
+2021-03-10 15:09:23,153 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:09:39,893 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 15:09:42,735 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+2021-03-10 15:14:28,664 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:14:40,219 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+where USER_ID=:1
+  and PWD=:2
+2021-03-10 15:14:42,700 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:14:43,250 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:15:32,099 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:15:32,211 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:15:42,511 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:15:42,664 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:16:06,975 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:17:28,959 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:17:29,255 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:19:02,563 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:20:20,022 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:20:55,949 - MyLog - DEBUG - 
+insert into survey (survey_id, title, content, interview_cnt, deadline, in_date, in_user_id, up_date, up_user_id)
+values (survey_seq.nextval, :1, :2, :3, :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6)
+2021-03-10 15:20:56,005 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:26:44,971 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:19,785 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:23,697 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:34:24,701 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:34:25,215 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:25,753 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:34:26,424 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:27,574 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:34:28,136 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:34:29,051 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:34:29,452 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:34:29,851 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:34:30,305 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:30,977 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:34:33,352 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:34:34,426 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:39,072 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-10 15:34:39,122 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:42,887 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:34:44,667 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:34:47,380 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:34:48,098 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:34:49,864 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:34:52,072 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:56,850 - MyLog - DEBUG - 
+update starget
+set complete_yn =:1,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:2
+where survey_id=:3
+  and st_mobile=:4
+2021-03-10 15:34:56,891 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:58,457 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:34:59,632 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:35:01,658 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:35:02,881 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:35:03,461 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:35:07,233 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:35:09,816 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:35:10,569 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:35:11,041 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:35:11,836 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:35:12,925 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 15:37:50,449 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:37:59,866 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:38:01,010 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:38:07,672 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:38:08,194 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:38:14,226 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:38:15,034 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:38:22,386 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:38:50,249 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:03,609 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:05,162 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:06,793 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:07,209 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:42:08,362 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:09,954 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:42:11,499 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:12,704 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:42:14,237 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:19,112 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sresult
+2021-03-10 15:42:20,491 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:42:21,313 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:25,464 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:42:47,928 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:42:55,632 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:43:36,101 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-10 15:43:36,165 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+2021-03-10 15:49:26,810 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:49:27,642 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:49:29,874 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:49:36,281 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:49:37,147 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:49:38,361 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:49:41,524 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:51:21,973 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:51:25,328 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:51:27,698 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:51:29,290 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:51:33,018 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 15:51:39,452 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:51:40,842 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:51:47,670 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:51:59,569 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:52:04,985 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:54:40,740 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 15:54:42,955 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 15:59:56,028 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 16:01:15,976 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-10 16:01:16,028 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 16:02:00,939 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-10 16:02:01,002 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 16:03:01,221 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-10 16:03:04,561 - MyLog - DEBUG - 
+insert into sdetail (survey_id, s_seq, question, a1, a2, a3, a4, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, :6, :7, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :8, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :9)
+2021-03-10 16:03:05,928 - MyLog - DEBUG - 
+update sdetail
+set question =:1,
+    a1 =:2,
+    a2 =:3,
+    a3 =:4,
+    a4 =:5,
+    up_date = to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:6
+where survey_id=:7
+  and s_seq=:8
+2021-03-10 16:03:05,981 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from sdetail
+where survey_id = :1
+2021-03-10 16:16:58,203 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:17:37,855 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 16:17:39,828 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:17:40,242 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:18:37,780 - MyLog - DEBUG - 
+update survey
+set title =:1,
+    content =:2,
+    interview_cnt =:3,
+    deadline =:4,
+    up_date =to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+    up_user_id =:5
+where survey_id=:6
+2021-03-10 16:20:12,626 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:20:14,438 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:20:14,989 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:20:15,979 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:20:18,088 - MyLog - DEBUG - 
+SELECT survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:22:11,191 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:22:12,178 - MyLog - DEBUG - 
+SELECT USER_ID,
+       PWD,
+       USER_NAME,
+       MOBILE,
+       EMAIL,
+       BIRTH,
+       IN_DATE,
+       IN_USER_ID,
+       UP_DATE,
+       UP_USER_ID
+from suser
+order by user_id desc
+2021-03-10 16:22:13,246 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:22:13,842 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:22:15,245 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 16:22:18,300 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:22:18,793 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:27:09,163 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:27:10,769 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:27:23,823 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:27:24,490 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:27:24,641 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:27:24,806 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:32:25,411 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:32:26,502 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:32:29,049 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:32:43,425 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:32:44,334 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 16:33:09,702 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-10 16:37:14,025 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:37:14,905 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:37:16,031 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:38:15,824 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:38:23,180 - MyLog - DEBUG - 
+delete
+from starget
+where survey_id = :3
+  and st_mobile= :4
+2021-03-10 16:38:23,232 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:38:49,511 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 16:38:49,560 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:39:18,945 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 16:39:19,014 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:39:32,727 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:39:34,138 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:39:35,687 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:39:37,744 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:39:39,566 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:39:41,056 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 16:39:43,518 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:39:46,373 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:58:23,631 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:58:27,471 - MyLog - DEBUG - 
+SELECT survey_id,
+       title,
+       content,
+       interview_cnt,
+       deadline,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from survey
+where in_user_id = :1
+2021-03-10 16:58:29,036 - MyLog - DEBUG - 
+SELECT survey_id,
+       st_mobile,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+where survey_id = :1
+2021-03-10 16:58:37,578 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:03:18,701 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:03:32,385 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:06:31,528 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:06:33,663 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:07:02,667 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:07:03,274 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:07:13,672 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:07:16,393 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:10:23,587 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:10:30,665 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:12:00,832 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:12:47,897 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:13:00,588 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:13:39,502 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:14:20,523 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:15:55,792 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:20:00,012 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:23:56,782 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:24:09,553 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:09,378 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:28,191 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:29,519 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:51,758 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:52,560 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:53,069 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:53,261 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:26:53,462 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:31:24,419 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:31:24,431 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:33:22,644 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:33:39,920 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:33:40,297 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:33:40,413 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:33:40,601 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:35:41,574 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:40:30,157 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:41:41,161 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:41:54,852 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:43:46,150 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:44:06,893 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:44:57,353 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:46:10,298 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:47:58,757 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:55:33,628 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:55:34,878 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:56:42,479 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:57:06,657 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:57:13,533 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:13,602 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:57:15,092 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:15,698 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:15,873 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:17,705 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:17,914 - MyLog - DEBUG - 
+insert into starget (survey_id, st_mobile, complete_yn, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :4, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :5)
+2021-03-10 17:57:52,682 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 17:59:43,096 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:13:28,317 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:13:29,528 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:05,660 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:06,583 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:07,046 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:07,255 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:23,539 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:24,941 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:32,236 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:55,159 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:15:55,776 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:26:01,498 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:26:04,200 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:26:25,794 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:27:08,414 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:27:15,677 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:31:08,690 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:31:47,247 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 18:32:39,182 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 19:36:54,551 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 19:36:54,559 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 19:39:43,834 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1
+2021-03-10 19:40:49,754 - MyLog - DEBUG - 
+select survey_id,
+       s_seq,
+       question,
+       a1,
+       a2,
+       a3,
+       a4,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id,
+
+  (select user_name
+   from suser u
+   where u.user_id = d.in_user_id) in_user_name
+from sdetail d
+where survey_id = :1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Test">
+    <select id="select">
+        select survey_id, st_tel, complete_yn, in_date, in_user_id, up_date, up_user_id from starget
+    </select>
+    <update id="insert">
+        insert into starget(
+	        survey_id, 
+	        st_tel, 
+	        complete_yn, 
+	        in_date, 
+	        in_user_id, 
+	        up_date, 
+	        up_user_id 
+        ) 
+        values 
+        (
+	        :1,
+	        :2,
+	        :3,
+	        to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+	        :5,
+	        to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+	        :6
+        )
+    </update>
+    <update id="update">
+        update 
+        	starget
+        set 
+        st_tel=:1, 
+        complete_yn=:2, 
+        up_date=to_char(sysdate, 'YYYYMMDD.HH24MISS'), 
+        up_user_id=:3 
+      where 
+      	survey_id=:4
+    </update>
+    <update id="delete">
+        delete from starget where survey_id=:1 or st_tel=:2 
+    </update>
+</mapper>

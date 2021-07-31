@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Test">
+    <select id="select_dupl">
+        select
+        	survey_id, 
+	        s_seq, 
+	        st_mobile, 
+	        answer, 
+	        in_date, 
+	        up_date, 
+	        in_user_id, 
+	        up_user_id
+        from sresult
+        where
+        	survey_id=:1
+    </select>
+    
+    <select id="select_login">
+        select
+        	survey_id,
+			s_seq,
+			st_mobile,
+			answer,
+			in_date,
+			in_user_id,
+			update_id,
+			up_user_id
+        from sresult
+        where
+        	survey_id=:1
+         and
+        	s_seq=:2
+    </select>
+    <select id="select">
+        select
+        	survey_id,
+			s_seq,
+			st_mobile,
+			answer,
+			in_date,
+			in_user_id,
+			update_id,
+			up_user_id
+        from sresult
+        order by 1 desc
+    </select>
+    
+    <update id="insert">
+        insert into c
+        (
+	        survey_id,
+			s_seq,
+			st_mobile,
+			answer,
+			in_date,
+			in_user_id,
+			update_id,
+			up_user_id
+	    ) 
+        values 
+        (
+        :1,
+        :2,
+        :3,
+        :4,
+        to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+        :5,
+        to_char(sysdate, 'YYYYMMDD.HH24MISS'),
+        :6
+        )
+    </update>
+    <update id="update">
+        update 
+        sresult 
+        set 
+	        s_seq=:1, 
+	        st_mobile=:2, 
+	        answer=:3, 
+	        up_date=to_char(sysdate, 'YYYYMMDD.HH24MISS'), 
+	        up_user_id=:4
+        where survey_id=:5
+    </update>
+    <update id="delete">
+        delete from sresult where survey_id=:1
+    </update>
+</mapper>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<script src='js/jquery-3.5.1.js'></script>
+<script type="text/javascript"></script>
+
+<script type="text/javascript">
+
+	function go(){ 
+		survey_id = $("#answer").val();
+		console.log(survey_id)
+		/* $("#answer").attr("action","/in").submit(); */
+	}
+
+	
+</script>
+
+</head>
+	<body>
+			{{survey_id}}<br>
+			{{st_mobile}}<br>
+		
+		<form name="answer" method="post" action="go()">
+			
+			{% for s in list %}<br>
+			{{s.question}}<br>
+			<input type="radio" name="{{s.s_seq}}q" value="{{s.s_seq}}a1" />{{s.a1}}		<br> 
+			<input type="radio" name="{{s.s_seq}}q" value="{{s.s_seq}}a2" />{{s.a2}}		<br> 
+			<input type="radio" name="{{s.s_seq}}q" value="{{s.s_seq}}a3" />{{s.a3}}		<br> 
+			<input type="radio" name="{{s.s_seq}}q" value="{{s.s_seq}}a4" />{{s.a4}}		<br> 
+	
+			{% endfor %} <br>			
+			
+		</form>
+			
+			<br /> all right reserved by aimaker.kr
+		
+	</body>
+</html>
+
+
+

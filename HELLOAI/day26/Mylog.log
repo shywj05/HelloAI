@@ -1,0 +1,48 @@
+2021-03-09 18:01:36,575 - Mylog - DEBUG - 
+select user_id,
+       pwd,
+       user_name,
+       mobile,
+       email,
+       birth,
+       in_date,
+       up_date,
+       in_user_id,
+       up_user_id
+from suser
+where user_id=:1
+  and pwd=:2
+2021-03-09 18:01:39,111 - Mylog - DEBUG - 
+select survey_id,
+       st_tel,
+       complete_yn,
+       in_date,
+       in_user_id,
+       up_date,
+       up_user_id
+from starget
+2021-03-09 18:07:03,460 - Mylog - DEBUG - 
+select survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       update_id,
+       up_user_id
+from sresult
+order by 1 desc
+2021-03-09 18:07:12,764 - Mylog - DEBUG - 
+insert into survey(survey_id, title, content, interview_cnt, deadline, in_date, in_user_id, up_date, up_user_id)
+values (:1, :2, :3, :4, :5, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :6, to_char(sysdate, 'YYYYMMDD.HH24MISS'), :7)
+2021-03-09 18:07:12,821 - Mylog - DEBUG - 
+select survey_id,
+       s_seq,
+       st_mobile,
+       answer,
+       in_date,
+       in_user_id,
+       update_id,
+       up_user_id
+from sresult
+order by 1 desc

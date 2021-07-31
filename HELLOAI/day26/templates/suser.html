@@ -1,0 +1,213 @@
+mybatis_suser.xml{% extends 'layout.html' %}
+<meta charset="UTF-8">
+{% block content %}
+<script>
+	function setData(user_id, pwd, user_name, mobile, email, birth, in_date,
+			up_date, in_user_id, up_user_id) {
+		alert("ok");
+		$("#user_id").val(user_id);
+		$("#pwd").val(pwd);
+		$("#user_name").val(user_name);
+		$("#mobile").val(mobile);
+		$("#email").val(email);
+		$("#birth").val(birth);
+		$("#in_date").val(in_date);
+		$("#up_date").val(up_date);
+		$("#in_user_id").val(in_user_id);
+		$("#up_user_id").val(up_user_id);
+	}
+
+	function fn_add() {
+		var user_id = $("#user_id").val();
+		var pwd = $("#pwd").val();
+		var user_name = $("#user_name").val();
+		var mobile = $("#mobile").val();
+		var email = $("#email").val();
+		var birth = $("#birth").val();
+		var in_date = $("#in_date").val();
+		var up_date = $("#up_date").val();
+		var in_user_id = $("#in_user_id").val();
+		var up_user_id = $("#up_user_id").val();
+		var param = "";
+		param += "dummy=" + Math.random();
+		param += "&user_id=" + user_id;
+		param += "&pwd=" + pwd;
+		param += "&user_name=" + user_name;
+		param += "&mobile=" + mobile;
+		param += "&email=" + email;
+		param += "&birth=" + birth;
+		param += "&in_date=" + in_date;
+		param += "&up_date=" + up_date;
+		param += "&in_user_id=" + in_user_id;
+		param += "&up_user_id=" + up_user_id;
+
+		$.ajax({
+			url : "suser_ins.ajax",
+			data : param,
+			dataType : "json",
+			type : "post",
+			async : false,
+			statusCode : {
+				404 : function() {
+					alert("네트워크가 불안정합니다. 다시 시도부탁드립니다.");
+				}
+			},
+			success : function(data) {
+				if (data.msg == "ok") {
+					location.reload();
+				} else {
+					alert("추가도중 문제가 생겼습니다.");
+				}
+				console.log(data.msg)
+			}
+		});
+	}
+
+	function fn_upd() {
+		var user_id = $("#user_id").val();
+		var pwd = $("#pwd").val();
+		var user_name = $("#user_name").val();
+		var mobile = $("#mobile").val();
+		var email = $("#email").val();
+		var birth = $("#birth").val();
+		var in_date = $("#in_date").val();
+		var up_date = $("#up_date").val();
+		var in_user_id = $("#in_user_id").val();
+		var up_user_id = $("#up_user_id").val();
+		var param = "";
+		param += "dummy=" + Math.random();
+		param += "&user_id=" + user_id;
+		param += "&pwd=" + pwd;
+		param += "&user_name=" + user_name;
+		param += "&mobile=" + mobile;
+		param += "&email=" + email;
+		param += "&birth=" + birth;
+		param += "&in_date=" + in_date;
+		param += "&up_date=" + up_date;
+		param += "&in_user_id=" + in_user_id;
+		param += "&up_user_id=" + up_user_id;
+
+		$.ajax({
+			url : "suser_upd.ajax",
+			data : param,
+			dataType : "json",
+			type : "post",
+			async : false,
+			statusCode : {
+				404 : function() {
+					alert("네트워크가 불안정합니다. 다시 시도부탁드립니다.");
+				}
+			},
+			success : function(data) {
+				if (data.msg == "ok") {
+					location.reload();
+				} else {
+					alert("수정도중 문제가 생겼습니다.");
+				}
+				console.log(data.msg)
+			}
+		});
+	}
+
+	function fn_del() {
+		var user_id = $("#user_id").val();
+		var param = "";
+		param += "dummy=" + Math.random();
+		param += "&user_id=" + user_id;
+
+		$.ajax({
+			url : "suser_del.ajax",
+			data : param,
+			dataType : "json",
+			type : "post",
+			async : false,
+			statusCode : {
+				404 : function() {
+					alert("네트워크가 불안정합니다. 다시 시도부탁드립니다.");
+				}
+			},
+			success : function(data) {
+				if (data.msg == "ok") {
+					location.reload();
+				} else {
+					alert("삭제도중 문제가 생겼습니다.");
+				}
+				console.log(data.msg)
+			}
+		});
+	}
+</script>
+<table>
+	<tr>
+		<td>
+			<table border="1px">
+				<tr>
+					<td>아이디</td>
+					<td>사용자이름</td>
+					<td>전화번호</td>
+					<td>이메일</td>
+				</tr>
+
+				{% for s in list %}
+				<tr>
+					<td><a
+						href="javascript:setData('{{s.user_id}}','{{s.pwd}}','{{s.user_name}}','{{s.mobile}}','{{s.email}}','{{s.birth}}','{{s.in_date}}','{{s.up_date}}','{{s.in_user_id}}','{{s.up_user_id}}')">{{s.user_id}}</a></td>
+					<td>{{s.user_name}}</td>
+					<td>{{s.user_name}}</td>
+					<td>{{s.email}}</td>
+				</tr>
+				{% endfor%}
+			</table>
+		</td>
+	</tr>
+</table>
+<table border="1">
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" id="user_id" /></td>
+	</tr>
+	<tr>
+		<td>비밀번호</td>
+		<td><input type="password" id="pwd"></td>
+	</tr>
+	<tr>
+		<td>사용자이름</td>
+		<td><input type="text" id="user_name"></td>
+	</tr>
+	<tr>
+		<td>전화번호</td>
+		<td><input type="text" id="mobile"></td>
+	</tr>
+	<tr>
+		<td>이메일</td>
+		<td><input type="text" id="email"></td>
+	</tr>
+	<tr>
+		<td>생년월일</td>
+		<td><input type="text" id="birth"></td>
+	</tr>
+	<tr>
+		<td>가입날짜</td>
+		<td><input type="text" id="in_date"></td>
+	</tr>
+	<tr>
+		<td>수정날짜</td>
+		<td><input type="text" id="up_date"></td>
+	</tr>
+	<tr>
+		<td>등록자</td>
+		<td><input type="text" id="in_user_id"></td>
+	</tr>
+	<tr>
+		<td>수정자</td>
+		<td><input type="text" id="up_user_id"></td>
+	</tr>
+
+	<tr>
+		<td colspan="2"><input type="button" value="추가"
+			onclick="fn_add()"> <input type="button" value="수정"
+			onclick="fn_upd()"> <input type="button" value="삭제"
+			onclick="fn_del()"></td>
+	</tr>
+</table>
+{% endblock %}
